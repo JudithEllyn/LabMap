@@ -1,0 +1,80 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "touristappid",
+	"projectname": "zylll",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": 0,
+					"name": "情景听说教室",
+					"pathName": "pages/scene_sp/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "日语",
+					"pathName": "pages/Jpn/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "VR局部",
+					"pathName": "pages/part/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设备",
+					"pathName": "pages/part/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地图",
+					"pathName": "pages/map/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发展",
+					"pathName": "pages/index/main",
+					"scene": null
+				}
+			]
+		}
+	}
+}

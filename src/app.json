@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/develop/main",
+    "pages/map/main",
+    "pages/mine/main",
+    "pages/device/main",
+    "pages/constru/main",
+    "pages/scene_sp/main",
+    "pages/part/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+    {
+      "pagePath": "pages/index/main",
+      "text": "概述",
+      "iconPath": "static/images/tabbar_icon/gaishu1_1.png",
+      "selectedIconPath": "static/images/tabbar_icon/gaishu1_2.png"
+    },
+    {
+      "pagePath": "pages/map/main",
+      "text": "地图导航",
+      "iconPath": "static/images/tabbar_icon/ditu1_1.png",
+      "selectedIconPath": "static/images/tabbar_icon/ditu1_2.png"
+    },
+    {
+    "pagePath": "pages/mine/main",
+      "text": "我的",
+      "iconPath": "static/images/tabbar_icon/wode1_1.png",
+      "selectedIconPath": "static/images/tabbar_icon/wode1_2.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
